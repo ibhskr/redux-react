@@ -6,13 +6,10 @@ const userSlice = createSlice({
   reducers: {
     addUser(state, action) {
       state.push(action.payload); // the data comes in action.payload and push it on state
-      // console.log("from redux state : ", state);
-      // console.log("from redux action: ", action);
-      // console.log("from redux ac p: ", action.payload);
     },
     removeUser(state, action) {
-      state.splice(action.payload,1);
-      console.log("from redux ac p: ", action.payload);
+      state.splice(action.payload, 1);
+      console.log( action.payload);
     },
     deleteUsers(state, action) {},
   },

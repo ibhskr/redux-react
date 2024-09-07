@@ -3,11 +3,12 @@
 ### REACT.JS + reduxjs/toolkit
 
 ```md
-```
+
 # Redux Toolkit Example Application
 
 This project demonstrates the usage of Redux Toolkit with a basic user management system. The application allows users to add and remove usernames from a list using Redux for state management.
-```
+
+
 ## 1. Install Dependencies
 
 Install the required dependencies:
