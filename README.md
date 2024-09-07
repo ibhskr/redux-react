@@ -1,8 +1,15 @@
-# React + Vite
+1. Install Dependencies
+   Install @reduxjs/toolkit and react-redux using npm or yarn.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Create the Store
+   Set up a Redux store using configureStore to hold your application's state.
 
-Currently, two official plugins are available:
+3. Create a Slice
+   Define a slice using createSlice. A slice includes the initial state, reducers (functions that modify the state), and automatically generated actions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4. Provide the Store to React
+   Wrap your app in the Provider component from react-redux and pass the store to it to make the Redux state available throughout the app.
+   
+5. Use Redux in Components
+   Use useSelector to read the state in your components.
+   Use useDispatch to send actions (trigger updates to the state) from your components.
