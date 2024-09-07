@@ -2,7 +2,7 @@
 
 ### REACT.JS + reduxjs/toolkit
 
-```md
+
 
 # Redux Toolkit Example Application
 
